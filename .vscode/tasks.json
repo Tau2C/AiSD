@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "gcc main.c DataTypes.c LinkedList.c",
+            "type": "shell",
+            "args": [],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem"
+            },
+            "group": "build"
+        }
+    ]
+}
