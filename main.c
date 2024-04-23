@@ -20,7 +20,7 @@ int main(void) {
 	}
 
 	DoubleLinkedList list;
-	ListNode nodes[6];
+	ListNode nodes[5];
 	
 	list.head = NULL;
 
