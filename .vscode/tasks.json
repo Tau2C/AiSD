@@ -3,9 +3,16 @@
     "tasks": [
         {
             "label": "build",
-            "command": "gcc main.c DataTypes.c LinkedList.c",
+            "command": "gcc",
             "type": "shell",
-            "args": [],
+            "args": [
+                "HEAP/main.c",
+                "HEAP/heap.c",
+                "HEAP/drawTree.c",
+				"-g",
+                "-o",
+                "HEAP/a.out"
+            ],
             "problemMatcher": [
                 "$gcc"
             ],
